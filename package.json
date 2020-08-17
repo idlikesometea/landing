@@ -1,0 +1,21 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass sass/main.scss css/styles.css --watch --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idlikesometea/landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idlikesometea/landing/issues"
+  },
+  "homepage": "https://github.com/idlikesometea/landing#readme"
+}
