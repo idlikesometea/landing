@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: transparent;
     background: linear-gradient(141deg, rgba(245,245,245,1) 0%, rgba(221,221,221,1) 100%);
@@ -129,4 +133,22 @@ div.work {
             }
         }
     }
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    a {
+        height: 12em;
+        line-height: 14em;
+        flex-basis: 25%;
+        text-align: center;
+        text-decoration: none;
+        i:before {
+            font-size: 3em;
+        }
+        &:hover {
+            background-color: #c5cad296;
+        }
+    } 
 }
